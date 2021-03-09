@@ -1,0 +1,84 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #b9c5db;
+}
+.cont {
+  background-color: #353a45;
+  box-sizing: border-box;
+  width: 664px;
+  margin: 110px auto 30px auto;
+  border-radius: 22px;
+  position: relative;
+  padding-bottom: 65px;
+}
+#letter {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: -46px 286px auto 286px;
+}
+h1 {
+  padding-top: 81px;
+  font-size: 48px;
+  line-height: 48px;
+  color: #538fff;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+}
+h4 {
+  font-size: 22px;
+  line-height: 22px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 28px 0 40px 0;
+}
+input {
+  margin-left: 61px;
+  margin-right: 14px;
+  width: 371px;
+  height: 52px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid #c4c4c4;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+form input::placeholder {
+  font-size: 20px;
+  line-height: 29px;
+  color: #a9a9a9;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+button {
+  width: 161px;
+  height: 52px;
+  border-radius: 10px;
+  background-color: #538fff;
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 29px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: sans-serif;
+  text-align: center;
+  border: hidden;
+}
+p {
+  font-size: 20px;
+  color: #787d87;
+  font-weight: 400;
+  font-style: italic;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 35px 0 0 0;
+}

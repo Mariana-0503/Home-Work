@@ -1,0 +1,83 @@
+html,
+body {
+  margin: 10;
+  padding: 0;
+}
+.main {
+  width: 236px;
+  height: 420px;
+  background-color: #f7f7f7;
+  border: 1px solid #ececec;
+  display: inline-block;
+  float: left;
+  padding: 56px 34px 94px 35px;
+  box-sizing: border-box;
+}
+div .icon {
+  margin-left: 0px;
+  margin-top: -30px;
+  margin-bottom: 0;
+}
+.icon {
+  height: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon-1 {
+  background-image: url(asset/Anchor-black.svg);
+}
+.icon-2 {
+  background-image: url(asset/Diamond-black.svg);
+  margin-left: -30px;
+}
+.icon-3 {
+  background-image: url(asset/Eyeglasses-black.svg);
+}
+.icon-4 {
+  background-image: url(asset/Monitor-black.svg);
+}
+
+h2 {
+  font-size: 21px;
+  color: #1b1b1b;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+  margin: 0 auto;
+}
+p {
+  width: 174px;
+  height: 162px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #777777;
+  font-weight: 400;
+  font-family: "PT Sans";
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 33px;
+}
+div:hover {
+  width: 240px;
+  height: 420px;
+  background-color: #0ec8cb;
+  border: 1px solid #0ec8cb;
+}
+div:hover h2 {
+  color: #ffffff;
+}
+div:hover p {
+  color: #ffffff;
+}
+div:hover .icon-1 {
+  background-image: url(asset/Anchor-white.svg);
+}
+div:hover .icon-2 {
+  background-image: url(asset/Diamond-white.svg);
+}
+div:hover .icon-3 {
+  background-image: url(asset/Eyeglasses-white.svg);
+}
+div:hover .icon-4 {
+  background-image: url(asset/Monitor-white.svg);
+}
