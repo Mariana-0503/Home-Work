@@ -1,0 +1,11 @@
+/* @font-face {
+  font-family: "Museo Sans Rounded";
+  src: url(/homework_11.2/fonts/MuseoSansRounded-300.woff2); /* Путь к файлу со шрифтом */
+/* src: url(/homework_11.2/fonts/MuseoSansRounded-300.woff2) format("woff2");
+} */
+
+@font-face {
+  font-family: "Museo Sans Rounded";
+  src: url(/homework_11.2/fonts/MuseoSansRounded-100.woff2);
+  src: url(/homework_11.2/fonts/MuseoSansRounded-100.woff2) format("woff2");
+}
