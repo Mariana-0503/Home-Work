@@ -11,7 +11,7 @@ body {
   box-sizing: border-box;
   padding: 109px 51px 100px 63px;
 }
-.letter__contetn {
+.contetn {
   width: 686px;
   height: 391px;
   border-radius: 10px;
@@ -19,15 +19,15 @@ body {
   background-color: #111a28;
   position: relative;
 }
-.letter__contetn__img {
+.contetn__img {
   margin-top: 24px;
   margin-left: 21px;
 }
-.letter__contetn__photo {
+.contetn__photo {
   margin-top: 65px;
   margin-left: 36px;
 }
-.letter__contetn__radio {
+.contetn__radio {
   width: 70px;
   display: flex;
   justify-content: space-between;
@@ -59,14 +59,14 @@ button:hover {
 .radioD {
   background-color: #29e3ea;
 }
-.letter__contetn__box {
+.contetn__box {
   position: absolute;
   height: 242px;
   width: 200px;
-  margin-top: -288px;
-  margin-left: 440px;
+  top: 80px;
+  right: 46px;
 }
-.letter__contetn__box__top {
+.contetn__box--top {
   font-size: 24px;
   letter-spacing: 0px;
   line-height: 26px;
@@ -74,7 +74,7 @@ button:hover {
   margin-top: -4px;
   margin-left: 4px;
 }
-.letter__contetn__box__top2 {
+.contetn__box--top2 {
   font-size: 14px;
   letter-spacing: 0px;
   line-height: 26px;
@@ -82,32 +82,32 @@ button:hover {
   margin-top: 4px;
   margin-left: 4px;
 }
-.letter__contetn__box__star {
+.contetn__box--star {
   position: absolute;
   top: 90px;
   right: 110px;
 }
-.letter__contetn__box__star label {
+.contetn__box--star label {
   float: right;
   cursor: pointer;
 }
-.letter__contetn__box__star label:not(:first-of-type) {
+.contetn__box--star label:not(:first-of-type) {
   padding-right: 1px;
 }
-.letter__contetn__box__star label:before {
+.contetn__box--star label:before {
   content: "\2605";
   font-size: 14px;
   color: #9da1a6;
 }
-.letter__contetn__box__star input {
+.contetn__box--star input {
   display: none;
 }
-.letter__contetn__box__star input:checked ~ label:before,
-.letter__contetn__box__star:not(:checked) > label:hover:before,
-.letter__contetn__box__star:not(:checked) > label:hover ~ label:before {
+.contetn__box--star input:checked ~ label:before,
+.contetn__box--star:not(:checked) > label:hover:before,
+.contetn__box--star:not(:checked) > label:hover ~ label:before {
   color: #f7bf16;
 }
-.letter__contetn__box__costomize {
+.contetn__box--costomize {
   width: 140px;
   height: 48px;
   margin-left: 6px;
@@ -129,7 +129,7 @@ button:hover {
   font-family: "Museo Sans Rounded";
   padding-left: 6px;
 }
-.letter__contetn__box__add {
+.contetn__box--add {
   width: 190px;
   height: 48px;
   margin-left: 6px;
