@@ -1,0 +1,203 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+.blue {
+  background-color: #70bfff;
+  height: 790px;
+  width: 1500px;
+  box-sizing: border-box;
+  padding: 179px 165px 151px 242px;
+  position: relative;
+}
+.blue_buttons {
+  padding: 0;
+  width: 446px;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.button_style {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100px;
+  width: 400px;
+  background-color: white;
+  position: relative;
+  border: 1px solid white;
+  hyphens: auto;
+  box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.48);
+  -webkit-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.48);
+}
+.button_style:hover {
+  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.71);
+  -webkit-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.71);
+}
+.button_text {
+  margin: 0;
+  text-align: center;
+  width: 300px;
+  font-size: 20px;
+  color: #262626;
+  font-weight: 700;
+}
+.icon-position {
+  height: 120px;
+  width: auto;
+  position: absolute;
+  right: 24px;
+  top: 28px;
+}
+.blue_picture {
+  position: absolute;
+  right: 164px;
+  top: 100px;
+}
+.blue_name {
+  position: absolute;
+  font-size: 90px;
+  line-height: 27px;
+  color: #ffffff;
+  font-weight: 700;
+  top: 352px;
+  right: 162px;
+}
+.yellow {
+  height: 1536px;
+  width: 1500px;
+  background-color: #ffe92f;
+  box-sizing: border-box;
+  padding: 120px 165px 120px;
+}
+.yellow__text {
+  width: 630px;
+  height: 190px;
+  margin: 0 auto;
+  text-align: center;
+}
+.yellow__text--big {
+  font-size: 90px;
+  line-height: 27px;
+  color: #262626;
+  font-weight: 700;
+  margin: 0;
+}
+.yellow__text--small {
+  padding-top: 40px;
+  width: 630px;
+  height: 69px;
+  font-size: 17px;
+  line-height: 27px;
+  color: #262626;
+  font-weight: 300;
+}
+.yellow__photos {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  height: 1002px;
+}
+.yellow__photos--1 {
+  height: 550px;
+  width: 770px;
+}
+.yellow__photos--2 {
+  width: 370px;
+  height: 260px;
+}
+.yellow__photos--3 {
+  width: 570px;
+  height: 400px;
+}
+.sideitem {
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.downitem {
+  display: flex;
+  width: 1170px;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.shadow {
+  box-shadow: 1px 4px 10px 0px rgba(0, 0, 0, 0.65);
+  -webkit-box-shadow: 1px 4px 10px 0px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 1px 4px 10px 0px rgba(0, 0, 0, 0.65);
+}
+.yellow__button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.yellow__button--style {
+  width: 200px;
+  height: 55px;
+  filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.5));
+  background-color: #5585a2;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  font-weight: 300;
+}
+.white {
+  height: 500px;
+  background: url(/homework_13.1/bg\ 2.png);
+  padding-top: 122px;
+  padding-left: 163px;
+  box-sizing: border-box;
+}
+.white__text--big {
+  font-size: 40px;
+  line-height: 27px;
+  color: #262626;
+  font-weight: 700;
+}
+.white__text--small {
+  width: 572px;
+  height: 50px;
+  font-size: 17px;
+  line-height: 27px;
+  color: #262626;
+  font-weight: 300;
+}
+.white__subscribe {
+  margin-top: 30px;
+  width: 770px;
+  display: flex;
+  justify-content: space-between;
+}
+.white__subscribe--input {
+  width: 570px;
+  height: 55px;
+  background-color: rgba(38, 38, 38, 0);
+  border: 1px solid #262626;
+  box-sizing: border-box;
+  font-size: 15px;
+  line-height: 27px;
+  color: #262626;
+  font-weight: 300;
+  padding-left: 16px;
+}
+.white__subscribe--submit {
+  width: 170px;
+  height: 55px;
+  filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.5));
+  background-color: #96b92c;
+  border: initial;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  font-weight: 300;
+}
