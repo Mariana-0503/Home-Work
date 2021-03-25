@@ -14,7 +14,7 @@ body {
   margin: 0 auto;
   padding: 0 15px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .title-block {
@@ -37,7 +37,8 @@ body {
   margin: 0;
 }
 
-.title-block::before, .title-block::after {
+.title-block::before,
+.title-block::after {
   content: "";
   position: absolute;
   height: 1px;
@@ -67,54 +68,54 @@ body {
 
 .main-block .controll-form input[value="1"]:checked ~ .slides .slide1 {
   -webkit-transform: translateX(0);
-          transform: translateX(0);
+  transform: translateX(0);
 }
 
 .main-block .controll-form input[value="1"]:checked ~ .slides .slide2 {
   -webkit-transform: translateX(100%);
-          transform: translateX(100%);
+  transform: translateX(100%);
 }
 
 .main-block .controll-form input[value="1"]:checked ~ .slides .slide3 {
   -webkit-transform: translateX(200%);
-          transform: translateX(200%);
+  transform: translateX(200%);
 }
 
 .main-block .controll-form input[value="2"]:checked ~ .slides .slide1 {
   -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
+  transform: translateX(-100%);
 }
 
 .main-block .controll-form input[value="2"]:checked ~ .slides .slide2 {
   -webkit-transform: translateX(0);
-          transform: translateX(0);
+  transform: translateX(0);
 }
 
 .main-block .controll-form input[value="2"]:checked ~ .slides .slide3 {
   -webkit-transform: translateX(100%);
-          transform: translateX(100%);
+  transform: translateX(100%);
 }
 
 .main-block .controll-form input[value="3"]:checked ~ .slides .slide1 {
   -webkit-transform: translateX(100%);
-          transform: translateX(100%);
+  transform: translateX(100%);
 }
 
 .main-block .controll-form input[value="3"]:checked ~ .slides .slide2 {
   -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
+  transform: translateX(-100%);
 }
 
 .main-block .controll-form input[value="3"]:checked ~ .slides .slide3 {
   -webkit-transform: translateX(0);
-          transform: translateX(0);
+  transform: translateX(0);
 }
 
 .main-block .slides {
   height: 600px;
   width: 1140px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   position: relative;
 }
 
@@ -154,7 +155,7 @@ body {
   width: 428px;
   height: 428px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 20px;
   margin-left: 67px;
   margin-top: 63px;
@@ -174,7 +175,8 @@ body {
   left: 0;
 }
 
-.main-block .fake-border::after, .main-block .fake-border::before {
+.main-block .fake-border::after,
+.main-block .fake-border::before {
   content: "";
   position: absolute;
   background-color: var(--color-special);
@@ -190,19 +192,23 @@ body {
   width: 25%;
 }
 
-.main-block .fake-border.y-top::after, .main-block .fake-border.y-top::before {
+.main-block .fake-border.y-top::after,
+.main-block .fake-border.y-top::before {
   top: 0;
 }
 
-.main-block .fake-border.y-bottom::after, .main-block .fake-border.y-bottom::before {
+.main-block .fake-border.y-bottom::after,
+.main-block .fake-border.y-bottom::before {
   bottom: 0;
 }
 
-.main-block .fake-border.x-left::after, .main-block .fake-border.x-left::before {
+.main-block .fake-border.x-left::after,
+.main-block .fake-border.x-left::before {
   left: 20;
 }
 
-.main-block .fake-border.x-right::after, .main-block .fake-border.x-right::before {
+.main-block .fake-border.x-right::after,
+.main-block .fake-border.x-right::before {
   right: 0;
 }
 
@@ -268,10 +274,10 @@ body {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   padding: 12px 10px;
 }
 
@@ -301,7 +307,8 @@ body {
   position: relative;
 }
 
-.main-block .text-area__dotted-line::before, .main-block .text-area__dotted-line::after {
+.main-block .text-area__dotted-line::before,
+.main-block .text-area__dotted-line::after {
   content: "";
   height: 4px;
   width: 10px;
