@@ -12,10 +12,11 @@ body {
 }
 .Fresh-Life {
   height: 1000px;
-  background-image: url(/homework_14.2/icons/img_1.png);
+  background-image: url(../icons/img_1.png);
   box-sizing: border-box;
   padding-left: 165px;
   padding-top: 50px;
+
   &__top {
     display: flex;
     list-style: none;
@@ -85,13 +86,15 @@ body {
 /* About-Us */
 .About-Us {
   height: 700px;
-  background-color: #00c3c3;
   box-sizing: border-box;
-  padding: 34px 50px 74px 110px;
+  padding: 34px 50px 74px 210px;
+  background: #00c3c3 url(../icons/img_2.png) no-repeat left 12% bottom 37%;
+  display: flex;
+  justify-content: flex-end;
 
   &__letters {
-    margin-left: 725px;
-    margin-top: -485px;
+    padding-right: 120px;
+    margin-top: 170px;
     height: 300px;
     display: flex;
     justify-content: space-between;

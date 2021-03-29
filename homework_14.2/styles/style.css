@@ -14,7 +14,7 @@ body {
 
 .Fresh-Life {
   height: 1000px;
-  background-image: url(/homework_14.2/icons/img_1.png);
+  background-image: url(../icons/img_1.png);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-left: 165px;
@@ -105,15 +105,21 @@ body {
 /* About-Us */
 .About-Us {
   height: 700px;
-  background-color: #00c3c3;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 34px 50px 74px 110px;
+  padding: 34px 50px 74px 210px;
+  background: #00c3c3 url(../icons/img_2.png) no-repeat left 12% bottom 37%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .About-Us__letters {
-  margin-left: 725px;
-  margin-top: -485px;
+  padding-right: 120px;
+  margin-top: 170px;
   height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
