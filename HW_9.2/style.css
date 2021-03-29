@@ -125,3 +125,10 @@ body {
   padding-left: 30px;
   box-sizing: border-box;
 }
+
+.box_4 input + i {
+  color: #fadc94;
+}
+.box_4 input:checked + i {
+  color: #fafafa;
+}
