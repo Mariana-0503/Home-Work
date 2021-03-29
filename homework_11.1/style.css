@@ -1,0 +1,114 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.head {
+  height: 1000px;
+  width: 1500px;
+  /* margin-right: auto;
+  margin-left: auto; */
+  background-image: url(/homework_11.1/img_1.png);
+  box-sizing: border-box;
+  padding-left: 165px;
+  padding-top: 50px;
+}
+/* .head-position {
+  margin-left: 165px;
+  margin-right: auto;
+} */
+.head__top {
+  display: flex;
+  list-style: none;
+  margin-left: 574px;
+  margin-top: -52px;
+  margin-right: 166px;
+  justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+}
+.line {
+  padding-top: 9px;
+  box-sizing: border-box;
+}
+.head__top .line {
+  border-top: 3px solid transparent;
+  width: 50px;
+}
+.head__top .line:hover {
+  border-top: 3px solid #ff6033;
+  width: 50px;
+}
+.head__top .line_h {
+  border-top: 3px solid #ff6033;
+  width: 50px;
+}
+.a_style {
+  width: 681px;
+  height: 15px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #262626;
+  font-weight: 700;
+  font-family: "Raleway";
+  text-decoration: none;
+}
+.head__first {
+  margin-top: 288px;
+  margin-left: -4px;
+}
+.head__text {
+  font-size: 60px;
+  line-height: 26px;
+  color: #262626;
+  font-weight: 900;
+  font-family: "Raleway", sans-serif;
+}
+.head__second {
+  margin-top: 36px;
+}
+.head__text--small {
+  font-size: 17px;
+  font-weight: 300;
+}
+.head_buttom {
+  margin-top: 30px;
+  width: 200px;
+  height: 55px;
+  border-radius: 0;
+  border: 2px solid #ff6033;
+  filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.5));
+  background-color: #ff6033;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Raleway";
+  outline: none;
+}
+
+.footer {
+  height: 700px;
+  width: 1500px;
+  background-color: #00c3c3;
+  box-sizing: border-box;
+  padding: 34px 50px 74px 110px;
+}
+.footer_letters {
+  margin-left: 725px;
+  margin-top: -485px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.footer__text {
+  font-size: 90px;
+  line-height: 27px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+.footer__text--small {
+  font-size: 17px;
+  font-weight: 300;
+}

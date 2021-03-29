@@ -1,0 +1,149 @@
+html,
+body {
+  margin: 0;
+  padding: 0%;
+  font-family: "Museo Sans Rounded";
+}
+.letter {
+  height: 600px;
+  width: 800px;
+  background-image: url(/homework_11.2/9ab9145b-7ee5-4ac0-95c2-6edf5b335b8f.jpg);
+  box-sizing: border-box;
+  padding: 109px 51px 100px 63px;
+}
+.contetn {
+  width: 686px;
+  height: 391px;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 32.5px rgba(0, 0, 0, 0.82));
+  background-color: #111a28;
+  position: relative;
+}
+.contetn__img {
+  margin-top: 24px;
+  margin-left: 21px;
+}
+.contetn__photo {
+  margin-top: 65px;
+  margin-left: 36px;
+}
+.contetn__radio {
+  width: 70px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 180px;
+  margin-top: 64px;
+}
+button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+}
+button:hover {
+  transform: scaleY(1.7) scaleX(1.2);
+  border: 2px solid #7b8088;
+  outline: none;
+  cursor: pointer;
+}
+.radioA {
+  background-color: #1f273f;
+}
+.radioB {
+  background-color: #fff;
+}
+.radioC {
+  background-color: #ed3333;
+}
+.radioD {
+  background-color: #29e3ea;
+}
+.contetn__box {
+  position: absolute;
+  height: 242px;
+  width: 200px;
+  top: 80px;
+  right: 46px;
+}
+.contetn__box--top {
+  font-size: 24px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #e1e1e1;
+  margin-top: -4px;
+  margin-left: 4px;
+}
+.contetn__box--top2 {
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #82868c;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+.contetn__box--star {
+  position: absolute;
+  top: 90px;
+  right: 110px;
+}
+.contetn__box--star label {
+  float: right;
+  cursor: pointer;
+}
+.contetn__box--star label:not(:first-of-type) {
+  padding-right: 1px;
+}
+.contetn__box--star label:before {
+  content: "\2605";
+  font-size: 14px;
+  color: #9da1a6;
+}
+.contetn__box--star input {
+  display: none;
+}
+.contetn__box--star input:checked ~ label:before,
+.contetn__box--star:not(:checked) > label:hover:before,
+.contetn__box--star:not(:checked) > label:hover ~ label:before {
+  color: #f7bf16;
+}
+.contetn__box--costomize {
+  width: 140px;
+  height: 48px;
+  margin-left: 6px;
+  position: relative;
+  margin-top: 40px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.select {
+  height: 32px;
+  width: 69px;
+  background-color: #111a28;
+  border: 1px solid #ffffff;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: #e1e1e1;
+  font-family: "Museo Sans Rounded";
+  padding-left: 6px;
+}
+.contetn__box--add {
+  width: 190px;
+  height: 48px;
+  margin-left: 6px;
+  position: relative;
+  margin-top: 30px;
+}
+.submit {
+  width: 184px;
+  height: 40px;
+  background-color: #4c525a;
+  border: 1px solid #ffffff;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: #e1e1e1;
+  font-family: "Museo Sans Rounded";
+}
