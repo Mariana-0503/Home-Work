@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;500&family=Roboto:wght@500;900&display=swap");
+html,
+body {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  max-width: 1500px;
+  font-family: "Raleway", "Raleway-Heavy", sans-serif;
+}
+
+:root {
+  --orange: #ff6033;
+  --dark: #262626;
+  --white: #ffffff;
+}
+
+.Fresh-Life {
+  height: 1000px;
+  background-image: url(../icons/img_1.png);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 165px;
+  padding-top: 50px;
+  padding-right: 20px;
+}
+
+@media (max-width: 960px) {
+  .Fresh-Life {
+    height: 100%;
+    padding-left: 40px;
+    padding-top: 30px;
+  }
+}
+
+.Fresh-Life img {
+  margin-right: 4%;
+  height: 60px;
+}
+
+.Fresh-Life__position {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Fresh-Life__position .menu {
+  width: 80%;
+}
+
+.Fresh-Life__position .menu .burger {
+  display: none;
+}
+
+.Fresh-Life__position .menu__list {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Fresh-Life__position .menu__list li {
+  border-top: 3px solid transparent;
+  width: 50px;
+}
+
+.Fresh-Life__position .menu__list li:hover {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-top: 3px solid var(--orange);
+}
+
+@media (max-width: 690px) {
+  .Fresh-Life__position .menu .burger {
+    display: block;
+    margin-left: auto;
+  }
+  .Fresh-Life__position .menu__list {
+    display: none;
+  }
+  .Fresh-Life__position .menu .burger-checkbox:checked + .burger {
+    border: 0;
+  }
+  .Fresh-Life__position .menu .burger-checkbox:checked + .burger::after, .Fresh-Life__position .menu .burger-checkbox:checked + .burger::before {
+    top: 50%;
+    left: 50%;
+  }
+  .Fresh-Life__position .menu .burger-checkbox:checked + .burger::before {
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+            transform: translate(-50%, -50%) rotate(45deg);
+  }
+  .Fresh-Life__position .menu .burger-checkbox:checked + .burger::after {
+    -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+            transform: translate(-50%, -50%) rotate(-45deg);
+  }
+  .Fresh-Life__position .menu .burger-checkbox:checked ~ .menu__list {
+    display: block;
+    padding-top: 20px;
+  }
+  .Fresh-Life__position .menu .burger-checkbox:checked ~ .menu__list li {
+    border-bottom: 5px solid var(--orange);
+  }
+}
+
+.Fresh-Life__first {
+  margin-top: 288px;
+  margin-left: -4px;
+}
+
+.Fresh-Life-text {
+  font-size: 60px;
+  line-height: 26px;
+  color: var(--dark);
+  font-weight: 900;
+}
+
+.Fresh-Life__second {
+  margin-top: 36px;
+}
+
+.Fresh-Life-text--small {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.Fresh-Life__buttom {
+  margin-top: 30px;
+  width: 200px;
+  height: 55px;
+  border-radius: 0;
+  border: 2px solid var(--orange);
+  -webkit-filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.5));
+  background-color: var(--orange);
+  font-size: 20px;
+  line-height: 27px;
+  color: var(--white);
+  font-weight: 300;
+  outline: none;
+}
+
+.Fresh-Life .line {
+  padding-top: 9px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Fresh-Life .a_style {
+  width: 681px;
+  height: 15px;
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--dark);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.Fresh-Life .burger {
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-top: 7px solid black;
+  position: relative;
+}
+
+.Fresh-Life .burger::before, .Fresh-Life .burger::after {
+  content: "";
+  width: 100%;
+  height: 7px;
+  position: absolute;
+  left: 0;
+  background-color: #000;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.Fresh-Life .burger::before {
+  top: 7px;
+}
+
+.Fresh-Life .burger::after {
+  bottom: 0px;
+}
+
+.Fresh-Life .hidden-content {
+  margin-top: 40px;
+  padding: 20px;
+  position: relative;
+}
+
+.Fresh-Life .hidden-content .menu__list2 {
+  display: none;
+  margin: 0;
+  list-style: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  position: absolute;
+  padding: 50px 10px 10px 10px;
+  top: 9px;
+  left: 9px;
+}
+
+.Fresh-Life .hidden-content .menu__list2 li {
+  padding: 10px;
+  background-color: #eee;
+  font-weight: 600;
+}
+
+.Fresh-Life .hidden-content .menu__list2 li .menu__list2 {
+  display: none;
+  position: static;
+  padding: 10px;
+}
+
+.Fresh-Life .hidden-content .menu__list2 li:hover .menu__list2 {
+  display: block;
+}
+
+.Fresh-Life .hidden-content:hover .menu__list2 {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
