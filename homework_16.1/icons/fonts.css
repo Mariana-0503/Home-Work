@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Raleway-Heavy";
+  src: url("/HW_10.1/Raleway-Heavy/Raleway-Bold.ttf") format("TrueType"),
+    url("/HW_10.1/Raleway-Heavy/Raleway-Bold.ttf") format("TrueType");
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("/HW_10.1/Raleway-Heavy/Raleway-Light.ttf") format("TrueType"),
+    url("/HW_10.1/Raleway-Heavy/Raleway-Light.ttf") format("TrueType");
+}
