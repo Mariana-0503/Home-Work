@@ -1,0 +1,82 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 1400px;
+  width: 1600px;
+  background-color: #e2e7ec;
+  padding-top: 82px;
+  padding-bottom: 374px;
+  padding-left: 120px;
+  padding-right: 120px;
+  font-size: 0;
+}
+.chap {
+  height: 540px;
+  width: 360px;
+  background-color: white;
+  border: 10px solid #e2e7ec;
+  position: relative;
+}
+.big {
+  width: 740px;
+  position: relative;
+}
+.data {
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: #818181;
+  font-weight: 500;
+  font-family: "Yantramanav", sans-serif;
+  text-transform: uppercase;
+  padding-left: 28px;
+  padding-top: 29px;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 127px;
+  left: 46px;
+  color: #9b9790;
+  padding: 0;
+}
+.bottom-bot {
+  position: absolute;
+  bottom: 37px;
+  left: 46px;
+  padding: 0;
+  color: white;
+  font-size: 43px;
+  letter-spacing: 0px;
+  line-height: 40px;
+  font-weight: 400;
+  font-family: "Yantramanav", sans-serif;
+  text-transform: uppercase;
+}
+.da {
+  font-size: 26px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: #818181;
+  font-weight: 500;
+  font-family: "Yantramanav", sans-serif;
+  text-transform: uppercase;
+  padding-left: 28px;
+  padding-top: 29px;
+}
+.da1 {
+  padding-top: 90px;
+}
+.ring {
+  position: absolute;
+  height: 54px;
+  width: 53px;
+  bottom: 25px;
+  left: 28px;
+}
