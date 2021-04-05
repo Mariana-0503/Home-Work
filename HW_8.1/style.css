@@ -1,0 +1,70 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 600px;
+  width: 1200px;
+  background-color: #fdde7e;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.item {
+  background-color: #ffffff;
+  border-radius: 4px;
+  width: 360px;
+  box-shadow: 0 0 2px #edd076;
+}
+.item1 {
+  height: 440px;
+}
+.item2 {
+  height: 500px;
+}
+.number {
+  font-size: 61px;
+  letter-spacing: 2px;
+  line-height: 24px;
+  color: #02995b;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 62px;
+  font-family: "Varta", sans-serif;
+}
+.number2 {
+  margin-top: 72px;
+}
+.im {
+  margin-left: 120px;
+}
+.im1 {
+  margin-top: -29px;
+}
+.im2 {
+  margin-top: -9px;
+}
+.im3 {
+  margin-top: -29px;
+  margin-left: 119px;
+}
+.tit {
+  font-size: 48px;
+  color: #333333;
+  font-family: "Varta", sans-serif;
+  text-align: center;
+  margin-top: 25px;
+}
+.tit1 {
+  font-size: 20px;
+  color: #333333;
+  font-family: "Varta", sans-serif;
+  text-align: center;
+  margin-top: -45px;
+}
+.tit2 {
+  margin-top: 35px;
+}
