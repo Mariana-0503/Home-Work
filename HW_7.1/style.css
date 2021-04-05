@@ -1,0 +1,42 @@
+table {
+  width: 100%;
+}
+
+table td {
+  width: 33, 333%;
+  text-align: center;
+}
+.icon {
+  width: 64px;
+  height: 63px;
+  border-radius: 31px;
+  background-color: #1275b9;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid #1275b9;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease-in-out,
+    background-image 0.3s ease-in-out;
+}
+.icon:hover {
+  background-color: white;
+}
+.icon-1 {
+  background-image: url(assets/Tablet.svg);
+}
+.icon-2 {
+  background-image: url(assets/Settings.svg);
+}
+.icon-3 {
+  background-image: url(assets/Dashboard.svg);
+}
+.icon-1:hover {
+  background-image: url(assets/Tablet_active.svg);
+}
+.icon-2:hover {
+  background-image: url(assets/Settings_active.svg);
+}
+.icon-3:hover {
+  background-image: url(assets/Dashboar_active.svg);
+}
