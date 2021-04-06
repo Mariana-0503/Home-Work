@@ -5,13 +5,11 @@ body {
   font-family: "Lato", sans-serif;
   width: 1920px;
   height: 4685px;
-  margin-top: 67px;
-  margin-left: 31px;
   background-color: white;
 }
 .part-one {
   height: 1071px;
-  background-image: url(/homework_13.2/hero-bg.png);
+  background-image: url(./hero-bg.png);
   padding-top: 285px;
   box-sizing: border-box;
 }
@@ -104,7 +102,7 @@ body {
 }
 .part-three {
   height: 487px;
-  background-image: url(/homework_13.2/services.png);
+  background-image: url(./services.png);
   box-sizing: border-box;
   padding-top: 128px;
 }
@@ -202,17 +200,19 @@ body {
 .input {
   margin: 0 auto;
   margin-top: 40px;
-}
-.button {
-  box-sizing: border-box;
   width: 395px;
   height: 58px;
   background-color: #3c3c3c;
   border: 2px solid #3c3c3c;
+  box-sizing: border-box;
+}
+.button {
   font-size: 16px;
   letter-spacing: 3px;
   color: #ffffff;
   font-weight: 400;
+  line-height: 58px;
+  text-decoration: none;
 }
 .footer {
   padding-top: 60px;

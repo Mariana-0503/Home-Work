@@ -23,7 +23,7 @@ body {
   margin: 0;
 }
 .button_style {
-  padding: 0px;
+  padding: 0px 70px 0px 10px;
   margin: 0;
   box-sizing: border-box;
   height: 100px;
@@ -32,6 +32,11 @@ body {
   position: relative;
   border: 1px solid white;
   hyphens: auto;
+  width: 300px;
+  text-align: center;
+  font-size: 18px;
+  color: #262626;
+  font-weight: 700;
   box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.48);
   -webkit-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.48);
   -moz-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.48);
@@ -41,14 +46,7 @@ body {
   -webkit-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.71);
   -moz-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.71);
 }
-.button_text {
-  margin: 0;
-  text-align: center;
-  width: 300px;
-  font-size: 20px;
-  color: #262626;
-  font-weight: 700;
-}
+
 .icon-position {
   height: 120px;
   width: auto;
@@ -153,7 +151,7 @@ body {
 }
 .white {
   height: 500px;
-  background: url(/homework_13.1/bg\ 2.png);
+  background: url(./bg_2.png);
   padding-top: 122px;
   padding-left: 163px;
   box-sizing: border-box;
