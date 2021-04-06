@@ -13,7 +13,7 @@
 <body>
     <!-- main -->
     <div class="main">
-      <img class="bg" src="/homework_12.1/bg.png">
+      <img class="bg" src="/homework_12.1/bg.png" alt="Here was img">
       <div class="main__head">
         Contact
       </div>
@@ -23,10 +23,12 @@
       </div>
       <div class="main__right">
           <form action="/api/feedback" method="post">
-            <button type="submit">Submit</button>
+            <input type="text"  name="text" required
+            minlength="4" maxlength="20" placeholder="Auskteez Tran">
+           
               <input type="email" name="email" placeholder="Your email..." required>
-              <input type="tel" name="tel" placeholder="Your phone number..." maxlength="13" required>
-              <textarea name="text" id="" cols="10" rows="10" placeholder="Your messge..." required></textarea>
+              <input type="tel" name="tel" placeholder="Your phone number..." maxlength="10" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+              <textarea name="text" cols="10" rows="10" placeholder="Your messge..." required></textarea>
               <!-- <input class="input4" type="text" name="text" placeholder="Your message" required> -->
             
           </form>
@@ -48,12 +50,12 @@
          </div>
      </div>
 
-    </div>
+  
    <!-- main -->
    <!-- footer -->
         <div class="footer">
             <div class="no_big color">© 2015 Company. All right reserved.</div>
-            <img class="img" src="/homework_12.1/logo-small.png">
+            <img class="img" src="/homework_12.1/logo-small.png" alt="Here was logo">
             <div class="no_big color color_s">Made with <span class="span"><b>love</b></span> by Auskteez</div>
         </div>
         

@@ -42,14 +42,15 @@ body {
 .link:hover {
   color: #fbf6e4;
   position: relative;
-  border-bottom: 3px solid transparent;
+  border-bottom: 3px solid #ff6033;
 }
 
-a:focus {
+.Sign {
   color: #fbf6e4;
   position: relative;
   border-bottom: 3px solid #ff6033;
   width: 50px;
+  text-decoration: none;
 }
 .letter__main {
   margin-top: 51px;
@@ -69,6 +70,7 @@ a:focus {
   padding: 10px;
   box-sizing: border-box;
   caret-color: white;
+  color: white;
 }
 .input--decor:hover {
   border-color: #23ae92;

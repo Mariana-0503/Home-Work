@@ -57,33 +57,36 @@ textarea {
   font-family: "Raleway";
   background-color: #00c4c4;
   opacity: 0.5;
-}
-button {
-  text-align: left;
-  box-sizing: border-box;
-  border-left: 5px solid #355b82;
   color: white;
-  font-weight: 500;
-  opacity: 1;
-}
-input[name="tel"]::placeholder {
-  color: white;
-  opacity: 1;
-}
-input[name="email"]::placeholder {
-  color: white;
-  opacity: 1;
-}
-textarea[name="text"]::placeholder {
-  color: white;
-  opacity: 1;
+  resize: none;
 }
 
+input::placeholder {
+  color: white;
+  opacity: 1;
+  outline: none;
+}
+textarea::placeholder {
+  color: white;
+  opacity: 1;
+  outline: none;
+}
 textarea {
   height: 250px;
   box-sizing: border-box;
   padding-top: 14px;
 }
+textarea:hover {
+  border-left: 5px solid #355b82;
+  outline: none;
+  opacity: 1;
+}
+input:hover {
+  border-left: 5px solid #355b82;
+  outline: none;
+  opacity: 1;
+}
+
 .main__left {
   position: relative;
   bottom: 344px;

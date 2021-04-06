@@ -15,7 +15,7 @@
         <ul class="letter__top">
            <!-- top -->
             <li>
-                <a href="#sign" class="link">Sign in</a>
+                <a class="Sign link" href="#sign" >Sign in</a>
             </li>
             <li>
                 <a href="#join" class="link">Join us</a>
@@ -27,12 +27,12 @@
             <form  class="form" id="form" action="#" method="POST">
                 <div class="form--style form__Username">
                     <label class="lable--decor" for="Username">Username</label><br>
-                    <input class="input--decor" id="Username" type="text" minlength="4" required >
+                    <input class="input--decor" id="Username" type="text" minlength="4" maxlength="20" required >
                     <div class="form--error">error</div>
                 </div>
                 <div class="form--style form__Password">
                     <label class="lable--decor" for="Password">Password</label><br>
-                    <input class="input--decor" id="Password" type="password" required>
+                    <input class="input--decor" id="Password" type="password" minlength="6" maxlength="12" required>
                     <div class="form--error">error</div>
                  </div>
                  <div class="form__controls form__controls--checkbox">
@@ -46,8 +46,8 @@
                     <button class="button--decor" type="submit" form="form">Sign in</button>
                 </div>
                 <div class="form__footer">
-                    <a href="#" class="form__footer__link form__advanced ">Forgot password</a>
-                    <a href="#" class="form__footer__link form__advanced ">Create an account</a>
+                    <a href="#" class="form__footer__link">Forgot password</a>
+                    <a href="#" class="form__footer__link">Create an account</a>
                 </div>
     
             </form>
