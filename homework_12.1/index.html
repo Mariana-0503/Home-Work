@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- main -->
+    <div class="main">
+      <img class="bg" src="/homework_12.1/bg.png" alt="Here was img">
+      <div class="main__head">
+        Contact
+      </div>
+      <div class="main__head small">
+        For new projects, ideas, business or anything<br>
+        you'd like to discuss, contact with me!
+      </div>
+      <div class="main__right">
+          <form action="/api/feedback" method="post">
+            <input type="text"  name="text" required
+            minlength="4" maxlength="20" placeholder="Auskteez Tran">
+           
+              <input type="email" name="email" placeholder="Your email..." required>
+              <input type="tel" name="tel" placeholder="Your phone number..." maxlength="10" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+              <textarea name="text" cols="10" rows="10" placeholder="Your messge..." required></textarea>
+              <!-- <input class="input4" type="text" name="text" placeholder="Your message" required> -->
+            
+          </form>
+
+      </div>
+      <div class="main__left">
+          <div>
+            <div class="big">ADDRESS</div>
+            <div class="no_big">123 City name, Street, City, Country</div>
+          </div>
+          <div>
+            <div class="big">EMAIL</div>
+            <div class="no_big">cahee@domain.com</div>
+          </div>
+          <div>
+            <div class="big">PHONE</div>
+            <div class="no_big">+012 345 6789</div>
+            </div>
+         </div>
+     </div>
+
+  
+   <!-- main -->
+   <!-- footer -->
+        <div class="footer">
+            <div class="no_big color">© 2015 Company. All right reserved.</div>
+            <img class="img" src="/homework_12.1/logo-small.png" alt="Here was logo">
+            <div class="no_big color color_s">Made with <span class="span"><b>love</b></span> by Auskteez</div>
+        </div>
+        
+     <!-- footer -->
+</body>
+</html>
