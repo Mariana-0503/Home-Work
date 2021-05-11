@@ -15,13 +15,13 @@ body {
   margin-top: 20px;
   width: 100%;
 }
-#dot_red {
+.dot_red {
   background-color: red;
 }
-#dot_yellow {
+.dot_yellow {
   background-color: yellow;
 }
-#dot_green {
+.dot_green {
   background-color: green;
 }
 #off {
